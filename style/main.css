@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(160deg, rgba(0,0,0,1), rgba(0,0,0,1), rgb(46, 0, 119, 1), rgb(119, 0, 179, 1));
+    background-attachment: fixed;
+    /*
+    background: linear-gradient(160deg, rgba(0,0,0,1), rgba(0,0,0,1), rgb(46, 0, 119, 1), rgb(119, 0, 179, 1));
+    background-attachment: fixed;
+    */
+    color:white;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,1) 100%), url('../imagens/hp2.jpg');
+    background-size: cover;
+}
+
+header .container {
+    height: 60px;
+    padding-left: 50px;
+    display: flex;
+    background-color: rgba(0,0,0,0);
+}
+
+header .container:hover {
+    background-color: black;
+}
+
+/*MENU*/
+.menu {
+    width: 89.8%;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: start;
+}
+
+.buttons {
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+}
+
+.btMenu {
+    margin:10px;
+    padding-right: 30px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 70%;
+}
+
+.imgBt {
+    max-height: 20px;
+    padding: 0;
+}
+
+.logo{
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img{
+    height: 22px;
+    width: 126px;
+}
+
+/*FILME PRINCIPAL*/
+
+.movie-main .container {
+    margin-top: 130px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movie-main .container:hover {
+    background: none;
+}
+
+.movie-main img {
+    height: 130px;
+    margin: 15px 0px 5px 0px;
+}
+
+
+.buttons-Main {
+padding-top: 20px;
+}
+
+#btMainPlay {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    border: none;
+    font-size: 15px;
+    padding: 0 0 2px 4px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, rgb(71, 16, 193), rgb(120, 87, 255) 85%, rgb(129, 155, 253) 100%);
+}
+
+#btMainPlay:hover {
+    background-image: linear-gradient(90deg, rgb(71, 16, 193), rgb(71, 16, 193) 85%, rgb(71, 16, 193) 100%);
+    opacity: 100%;
+}
+
+#btMainPlus {
+    margin-left: 5px;
+    height: 44px;
+    width: 145px;
+    border-radius: 2rem;
+    border: none;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#btMainPlus:hover {
+    background-color: rgb(77, 24, 190);
+    opacity: 100%;
+}
+
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*FEED*/
+.feed {
+    height: 1000px;
+    background: linear-gradient(rgba(0,0,0,1) 5%, rgba(0,0,0,0));
+}
