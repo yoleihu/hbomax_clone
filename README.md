@@ -4,8 +4,6 @@
 
 Este projeto foi desenvolvido em um desafio durante o Bootcamp de React.js da MRV, através da plataforma Digital Innovation One.
 
-Você pode visualizar meu projeto através do link do vercel.
-
 ### 🖥️Esta é a visão geral da página:
 
 ![ReadME%20HBOMax%20Clone%203e8d7e2007de40ca96a6e9162273b872/Untitled.png](https://i.ibb.co/qdMfF4q/imagem-2021-08-04-000408.png)
